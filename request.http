@@ -1,0 +1,28 @@
+### Cear un autor
+POST http://localhost:3000/api/authors
+Content-Type: application/json
+
+{
+  "name": "orionuser"
+}
+
+### Listar autores
+GET http://localhost:3000/api/authors
+
+
+### Crear un libro
+POST http://localhost:3000/api/books
+Content-Type: application/json
+
+{
+  "title": "Book of Orion",
+  "chapters": 20,
+  "pages": 417,
+  "authors": ["5bb72352-a3ae-457a-81a5-1c26c91ba2f2"]
+}
+
+### Listar libros
+GET http://localhost:3000/api/books
+
+### Promedio Paginas Chapters
+GET http://localhost:3000/api/books/average

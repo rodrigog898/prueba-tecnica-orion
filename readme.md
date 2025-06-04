@@ -30,3 +30,9 @@
 
 ---
 
+
+## Request
+
+* El archivo request.http incluye todas las rutas y las solicitudes a dichas rutas.
+
+---
